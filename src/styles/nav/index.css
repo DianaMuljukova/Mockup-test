@@ -1,0 +1,29 @@
+.nav-children {
+  border-bottom: 1px solid #e1e5eb;
+}
+
+.nav-children .nav-link.active {
+  border-bottom: none !important;
+}
+
+.nav-children__list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.nav-children__item {
+  font-size: 13px;
+  font-weight: 300;
+  display: block;
+  padding: 8px 0;
+  color: #C3C7CD;
+}
+
+.nav-children__item:hover {
+  text-decoration: none;
+}
+
+.nav-children__item.active {
+  color: #21A8D8;
+}

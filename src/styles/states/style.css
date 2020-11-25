@@ -1,0 +1,19 @@
+.state-item {
+  padding: 24px
+}
+
+.state-value-wrapper {
+  width: 88px;
+  height: 88px;
+  position: relative;
+  margin-right: 16px;
+  border-radius: 50%
+}
+
+.state-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px
+}
